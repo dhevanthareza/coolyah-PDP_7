@@ -16,7 +16,7 @@ print ("\n==================================")
 
 #Menggunakan For
 print ("\n==== Menggunakan FOR ========")
-for i in range(128) :
+for i in range(127) :
     print (chr(i),end=" ")
 print ("\n==================================")
 
@@ -26,8 +26,6 @@ print ("\n==================================")
 print ("\n==== Menggunakan Do - While ========")
 a = 127
 b = 0
-b != a or b == a
-
 while True :
     nilai_ascii = str(chr(b))
     print(nilai_ascii, end=" ")

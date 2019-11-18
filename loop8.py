@@ -20,7 +20,7 @@ for i in range(bulanAwal, bulanAkhir):
         biayaYangDidapat += jumlahTelur * hargaTelur
     biayaYangDikeluarkan += perawatan
     print("Bulan {} = {}".format(i-2, jumlahTelur))
-print("Jumlah telur yang didapat = {} Kg".format(jumlahTelur))
+print("Jumlah telur yang didapat = {} Kg".format(jumlahTelur/10))
 print("Biaya yang masuk          = ", biayaYangDidapat)
 print("Biaya yang keluar         = ", biayaYangDikeluarkan)
 print("Keuntungan                = ", biayaYangDidapat - biayaYangDikeluarkan)
