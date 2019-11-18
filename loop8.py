@@ -17,10 +17,10 @@ jumlahTelur = 0
 for i in range(bulanAwal, bulanAkhir):
     if(i >= 4) :
         jumlahTelur += telurPerAyam * jumlahAyam * 30
-        biayaYangDidapat += jumlahTelur * hargaTelur
+        biayaYangDidapat += jumlahTelur/15 * hargaTelur
     biayaYangDikeluarkan += perawatan
     print("Bulan {} = {}".format(i-2, jumlahTelur))
-print("Jumlah telur yang didapat = {} Kg".format(jumlahTelur/10))
+print("Jumlah telur yang didapat = {} Kg".format(jumlahTelur/15))
 print("Biaya yang masuk          = ", biayaYangDidapat)
 print("Biaya yang keluar         = ", biayaYangDikeluarkan)
 print("Keuntungan                = ", biayaYangDidapat - biayaYangDikeluarkan)
